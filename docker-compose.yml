@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  test-backend:
+    image: ${DOCKER_REGISTRY-}testbackend
+    build:
+      context: .
+      dockerfile: test-backend/Dockerfile
+    ports:
+      - "8000:80"
+    depends_on:
+          - db
+
+  db:
+    image: "mcr.microsoft.com/mssql/server:2022-latest"
+    ports:
+      - "1433:1433"
+
+    environment:
+        SA_PASSWORD: "S3cur3P@ssW0rd!"
+        ACCEPT_EULA: "Y"

@@ -1,0 +1,15 @@
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\bin\Debug\net5.0\backend.Dal.deps.json
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\bin\Debug\net5.0\backend.Dal.runtimeconfig.json
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\bin\Debug\net5.0\backend.Dal.runtimeconfig.dev.json
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\bin\Debug\net5.0\backend.Dal.dll
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\bin\Debug\net5.0\ref\backend.Dal.dll
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\bin\Debug\net5.0\backend.Dal.pdb
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\obj\Debug\net5.0\backend.Dal.csproj.AssemblyReference.cache
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\obj\Debug\net5.0\backend.Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\obj\Debug\net5.0\backend.Dal.AssemblyInfoInputs.cache
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\obj\Debug\net5.0\backend.Dal.AssemblyInfo.cs
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\obj\Debug\net5.0\backend.Dal.csproj.CoreCompileInputs.cache
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\obj\Debug\net5.0\backend.Dal.dll
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\obj\Debug\net5.0\ref\backend.Dal.dll
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\obj\Debug\net5.0\backend.Dal.pdb
+C:\Users\Urkens\Documents\dotnet\www\test-backend\backend.Dal\obj\Debug\net5.0\backend.Dal.genruntimeconfig.cache

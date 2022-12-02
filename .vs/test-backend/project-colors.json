@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9d71674e-ed99-4d78-bbb2-f53e14c0fe03": {
+      "ProjectGuid": "9d71674e-ed99-4d78-bbb2-f53e14c0fe03",
+      "DisplayName": "test-backend",
+      "ColorIndex": 0
+    },
+    "d55fcdff-6843-45ef-a133-17f68b1aaad6": {
+      "ProjectGuid": "d55fcdff-6843-45ef-a133-17f68b1aaad6",
+      "DisplayName": "backend.Dal",
+      "ColorIndex": 1
+    },
+    "cd29b018-a2a1-409f-b1fc-0a9c1d9548da": {
+      "ProjectGuid": "cd29b018-a2a1-409f-b1fc-0a9c1d9548da",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
