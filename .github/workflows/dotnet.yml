@@ -21,9 +21,9 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore backend.Dal.csproj
+      run: dotnet restore backend.Dal/backend.Dal.csproj
     - name: Restore dependencies
-      run: dotnet restore test-backend.csproj
+      run: dotnet restore test-backend/test-backend.csproj
     - name: Build
       run: dotnet build test-backend/backend.Dal/backend.Dal --no-restore
     - name: Build
