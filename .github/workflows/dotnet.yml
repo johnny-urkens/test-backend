@@ -25,9 +25,9 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore test-backend/test-backend.csproj
     - name: Build
-      run: dotnet build backend.Dal/backend.Dal --no-restore
+      run: dotnet build backend.Dal/backend.Dal.csproj --no-restore
     - name: Build
-      run: dotnet build test-backend/test-backend --no-restore
+      run: dotnet build test-backend/test-backend.csproj --no-restore
      
 #     - name: Test
 #       run: dotnet test --no-build --verbosity normal
