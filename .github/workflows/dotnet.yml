@@ -28,6 +28,12 @@ jobs:
       run: dotnet build backend.Dal/backend.Dal.csproj --no-restore
     - name: Build
       run: dotnet build test-backend/test-backend.csproj --no-restore
+    - name: Docker login
+      run: docker login -u ${{ secrets.DOCKER_USER }} -p ${{ secrets.DOCKER_PASSWORD }}
+    - name: Docker Build
+      run: docker build -t ${{ secrets.DOCKER_USER }}/test-backend:latest .
+    - name: Upload container to Docker Hub with Push
+      run: docker push ${{ secrets.DOCKER_USER }}/test-backend:latest
      
 #     - name: Test
 #       run: dotnet test --no-build --verbosity normal
