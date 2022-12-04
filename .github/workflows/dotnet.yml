@@ -20,6 +20,7 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
+        file: ./test-backend/test-backend/Dockerfile
     - name: Restore dependencies
       run: dotnet restore backend.Dal/backend.Dal.csproj
     - name: Restore dependencies
@@ -31,9 +32,9 @@ jobs:
     - name: Docker login
       run: docker login -u ${{ secrets.DOCKER_USER }} -p ${{ secrets.DOCKER_PASSWORD }}
     - name: Docker Build
-      run: docker build -t ${{ secrets.DOCKER_USER }}/test-backend/test-backend:latest .
+      run: docker build -t ${{ secrets.DOCKER_USER }}/test-backend:latest .
     - name: Upload container to Docker Hub with Push
-      run: docker push ${{ secrets.DOCKER_USER }}/test-backend/test-backend:latest
+      run: docker push ${{ secrets.DOCKER_USER }}/test-backend:latest
      
 #     - name: Test
 #       run: dotnet test --no-build --verbosity normal
