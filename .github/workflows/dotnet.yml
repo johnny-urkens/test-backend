@@ -20,6 +20,7 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
+        file: ./test-backend/test-backend/Dockerfile
     - name: Restore dependencies
       run: dotnet restore backend.Dal/backend.Dal.csproj
     - name: Restore dependencies
